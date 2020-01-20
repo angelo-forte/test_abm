@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
         $lowerLimit = 0;
       }
       else{
-        $lowerLimit = ($currentPage * 5) - 5;
+        $lowerLimit = ($currentPage * $listSize) - $listSize;
       }
       $sql = $dbConn->prepare("SELECT count(s.id) as numRows 
                                FROM students AS s");
@@ -121,7 +121,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 if ($_SERVER['REQUEST_METHOD'] == 'DELETE')
 {
   session_start();
-  if (session_unset() && session_destroy()){
+  if (session_destroy()){
   	header("HTTP/1.1 200 OK");
     echo json_encode('Success');
   }
