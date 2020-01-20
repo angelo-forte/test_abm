@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/login.css" >
+
+    <title>Welcome to KnowledgeCity</title>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+		<div class="row content">
+			<div class="col-md-12 logoClass">
+				<img src="images/Logo.svg" alt="KnowledgeCity" width="65%" height="65%">
+			</div>
+			<div class="col-md-12 welcomeDiv">
+				<p class="welcome">Welcome to the Learning Management System</p>
+				<p class="please">Please log in to continue</p>
+			</div>
+			<div class="col-md-12">
+				<div class="form-group">
+				  <label class="labelUser">
+					<input type="text" id="username" class="form-control brounded" placeholder="Username" />
+				  </label>
+				</div>
+				<div class="form-group">
+				  <label class="labelPassword">
+					<input type="password" id="password" class="form-control brounded" placeholder="Password" />
+				  </label>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				<div class="checkbox">
+				  <input id="rememberMe" type="checkbox" /> Remember me<br><br>
+				</div>
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div>
+		<div class="row content">
+			<div class="col-md-12">
+				<button id="btnLogIn" class="btn btn-kc content">Log In</button>
+				<br><br>
+        <div id="passwordWrong">
+				  <p>Username or password wrong!!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+      body {
+        background-color: #F6F6F6;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+      .checkCircle{
+        color:#0A8129;
+        font-size:2em;
+      }
+      .timesCircle{
+        color:#CE0000;
+        font-size:2em;
+      }
+      .studentRow{
+        cursor:pointer;
+      }
+      .hide{
+        display:none;
+      }
+      .content {
+        text-align:center;
+      }
+      .disableOpaque{
+      pointer-events:none;
+      opacity:0.4;
+      }
+      .main {
+       flex: 1;
+      }
+      .footer {
+        text-align:center;
+        background-color: #EBEBEB;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 20px;
+      }
+      .logout{
+        font-size: 1em;
+        color:#3E3E3E;
+        font-weight:bold;
+        cursor: pointer;
+      }
+      .titleUserList{
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+      }
+      .tableStudents{
+        border-top: 12px solid #FF7F00;
+      }
