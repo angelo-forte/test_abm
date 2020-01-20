@@ -1,6 +1,7 @@
       body {
         background-color: #F6F6F6;
       }
+
       .labelUser {
         position: relative;
       }
@@ -12,7 +13,7 @@
         top: 0;
         bottom: 0;
         width: 25px;
-        background: url("images/user.svg") center / contain no-repeat;
+        background: url("../images/user.svg") center / contain no-repeat;
       }
 
       .labelPassword {
@@ -26,17 +27,19 @@
         top: 0;
         bottom: 0;
         width: 25px;
-        background: url("images/password.svg") center / contain no-repeat;
+        background: url("../images/password.svg") center / contain no-repeat;
       }
 
       input {
         text-indent: 18px;
       }
+
       .content {
         margin-top:auto;
         margin-bottom:auto;
         text-align:center;
       }
+
       .btn-kc{
         font-size: 1.2em;
         color:#FFF;
@@ -44,10 +47,12 @@
         width:22em;
         border-radius: 25px;
       }
+
       .brounded{
         border-radius: 25px;
         width: 25em;
       }
+
   	  .checkbox{
 	   	  margin-top:auto;
         margin-bottom:auto;
@@ -55,13 +60,8 @@
 		    padding-right: 15em;
 	    }
 
-  	  .disableOpaque{
-	   		pointer-events:none;
-		  	opacity:0.4;
-      }
-
       .logoClass{
-        margin-top:170px;
+        margin-top:5em;
         margin-bottom:1px;
       }
       
