@@ -14,3 +14,5 @@ a) On the students list, if you make double click on the status icon, it will ch
 b) Also on the students list, if you make double click on the three dots above the group label, you can select a new group for this student.
 
 2. If the session has been closed, and try to open the student list, it will be redirected to a page indicating that access is not authorized.
+
+3. This code was tested on Firefox and Google Chrome browsers.
